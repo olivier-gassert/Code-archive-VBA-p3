@@ -1,3 +1,5 @@
+# Code archive VBA – Partie 3
+
 Ce projet illustre mes premiers pas dans le développement avec VBA, réalisés dans le but de digitaliser et réorganiser l’administration d’une boutique.
 
 ## Partie 3 : Gestion des salaires
