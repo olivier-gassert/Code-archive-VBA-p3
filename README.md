@@ -26,3 +26,43 @@ Cette transition m’a permis de continuer à exploiter mes outils personnalisé
 
 ---
 
+## Explications
+
+Le fichier **Salaire_.bas** contient plusieurs procédures (Sub) destinées à être associées à des **boutons personnalisés** dans la barre d’outils (fonction disponible uniquement sur la version PC, absente de Microsoft Office 2011).
+
+
+### Liste des procédures
+
+- `Sub Bouton_Nouveau_Fichier_Salaires()`
+- `Sub Attachement_Salaires_Données()`
+- `Sub Transfert_Salaires__Données_à_Fiches_Janvier()`
+- `Sub Bouton_Année_Salaires()`
+
+
+### Ordre d’exécution conseillé
+
+1. `Sub Bouton_Nouveau_Fichier_Salaires()`
+   Crée un dossier « Salaires ».
+
+2. `Sub Attachement_Salaires_Données()`
+   Ouvre des boîtes de dialogue pour insérer les données sur la feuille correspondante.
+
+3. `Sub Transfert_Salaires__Données_à_Fiches_Janvier()`
+   Transfère les données vers la fiche de salaire du mois. (Une procédure existe pour chaque mois.)
+
+4. `Sub Bouton_Année_Salaires()`
+   Ajoute une nouvelle année complète de fiches de salaires.
+
+### Autres fichiers
+
+Les fichiers **XLSX** fournis dans le repository sont des **aperçus visuels** des résultats générés par les macros contenues dans le fichier **Salaire_.bas**. 
+
+---
+
+## Prochaine étape
+
+Concernant la gestion du stock, il était d’abord nécessaire de maîtriser le stock physique : se débarrasser des invendus et vieilleries, séparer les affaires privées de celles de la boutique, organiser, ranger et quantifier pour maintenir de l’ordre même lorsque les choses évoluaient rapidement. Mais ceci relevait davantage de l’organisation pratique que du codage.
+
+La véritable prochaine étape côté développement a été l’apprentissage du HTML et du CSS, pour concevoir le site internet de la boutique.
+
+---
